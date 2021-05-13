@@ -1,0 +1,488 @@
+body {
+	background-color: white;
+	font-family: helvetica;
+	color: gray;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	position: fixed;
+	float: right;
+	top:0;
+	right: 0;
+	background-color: #bccad6;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	overflow: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	z-index: 9999999;
+}
+
+nav a {
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	margin: auto;
+	line-height: 50px;
+	padding: 13px;
+	border-radius: 20px;
+	text-shadow:
+    -1px -1px 0 #667292,
+    1px -1px 0 #667292,
+    -1px 1px 0 #667292,
+    1px 1px 0 #667292;
+}
+
+nav a.active {
+	background-color: #f1e3dd;
+	color: white;
+	text-shadow:
+    -1px -1px 0 #667292,
+    1px -1px 0 #667292,
+    -1px 1px 0 #667292,
+    1px 1px 0 #667292;  
+}
+
+nav a:hover{
+	background-color: #667292;
+}
+
+nav input[type=text] {
+	padding: 0.5em;
+	border: none;
+	margin-left: 2em;
+	font-size: 14px;
+	border-radius: 15px;
+	text-indent: 10px;
+	background-color: #f1e3dd;
+	color: gray;
+}
+
+header {
+	margin-top: -1em;
+}
+
+#logo {
+	width: 95px;
+	float: left;
+	padding-top: 4.7em;
+	padding-right: 2em;
+	padding-left: 2.5em;
+}
+
+#physics {
+	letter-spacing: 10px;
+	color: #667292;
+	font-weight: bold;
+	float: left;
+	font-size: 40px;
+	padding-top: 70px;
+}
+
+
+#devname {
+	padding-top: 120px;
+	color: #bccad6;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+}
+
+#devlink {
+	padding-top: 95px;
+	color: #bccad6;
+	letter-spacing: 2px;
+}
+
+#devlink:hover {
+	color: #667292;
+}
+
+#socmed {
+	margin-top: -105px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+#socmed a {
+	padding: 20px;
+	font-size: 20px;
+}
+
+#socmed img {
+	width: 100px;
+}
+
+.twocolumn {
+	float: left;
+	width: 46%;
+	padding-left: 2em;
+}
+
+.fourcolumn {
+	float: left;
+	width: 26%;
+	padding-left: 1.5em;
+	overflow: scroll;
+	margin: -20px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row {
+	align-items: center;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+/* BACK DIVS: 0(SAND), 1(MINT), 2(WHITE) */
+
+.back {
+	background-color: #f1e3dd;
+	width: 100%
+	margin-top: -15px;
+	height: 25%;
+	padding: 20px;
+}
+
+.back1 {
+	background-color: #E6EEDF;
+	width: 100%
+	margin: -15px;
+	height: 630px;
+}
+
+.back2 {
+	background-color: white;
+	width: 100%
+	margin: -15px;
+	height: 630px;
+}
+
+/* TEXT ELEMENTS */
+
+h1 {
+	text-align: center;
+}
+h2 {
+	font-size: 30px;
+	text-align: center;
+	color: #667292;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+h3 {
+	text-indent: 2em;
+	color: #bccad6;
+	text-shadow: 1px 1px 0 #667292;
+}
+
+p {
+	padding-left: 4em;
+	font-size: 20px;
+	font-family: times new roman;
+}
+
+ul {
+	line-height: 2em;
+	font-size: 20px;
+	font-family: times new roman;
+	font-size: 20px;
+}
+}
+
+/* TABLE ELEMENTS */
+
+main {
+	margin-top: -5em;
+}
+
+table {
+	table-layout: fixed;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+th {
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+th:hover {
+	animation-name: fade;
+	animation-duration: 30s;
+}
+
+@keyframes fade {
+	3% {
+		background-color: gray;
+		color: white;
+	}
+}
+
+td {
+	font-size: 15px;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+
+.nonmetals {
+	background-color: #E5EFDF;
+}
+.alkalimetals {
+	background-color: #F3F1E3;
+}
+
+.alkalinearths {
+	background-color: #E3E0CC;
+}
+
+.transitionmetals {
+	background-color: #F0F0F0;
+}
+
+.basicmetals {
+	background-color: #bccad6;
+}
+
+.metalloids {
+	background-color: #667292;
+}
+
+.halogens {
+	background-color: #DEEEE6;
+}
+
+.noblegases {
+	background-color: #C9DFD7;
+}
+
+.lanthanides {
+	background-color: #BCC8A9;
+}
+
+.actinides {
+	background-color: #E6F1D4;
+}
+
+#lanthanide {
+	margin-top: 9px;
+	position: absolute;
+	z-index: 999999;
+}
+
+#actinide {
+	margin-top: 80px;
+	position: absolute;
+	z-index: 999999;
+}
+
+button {
+    display:inline-block;
+    width: 100%;
+    padding: 31px 5px 31px 5px;
+    font-family: helvetica;
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+}
+
+#lanthanidebutton {
+	background-color: #BCC8A9;
+	border: none; 
+}
+
+#actinidebutton {
+	background-color: #E6F1D4;
+	border: none; 
+}
+
+#lanthanidebutton:hover {
+	animation-name: fade;
+	animation-duration: 30s;
+}
+
+#actinidebutton:hover {
+	animation-name: fade;
+	animation-duration: 30s;
+}
+
+#atomicmass {
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: -10px;
+}
+
+#atomicnum {
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	margin-top: -15px;
+	margin-bottom: 3px;
+}
+
+#elementinfo {
+	margin-top: 200px;
+	display: none;
+}
+
+/* LEFT ARROW, RIGHT ARROW, BOTTOM ARROWS */
+
+#larrow {
+	margin-top: 100px;
+}
+
+#larrowtail {
+	font-size: 15px;
+	background-color: #828282;
+	float: left;
+	width: 600px;
+	height: 25px;
+	color: white;
+	transform: rotate(-90deg);
+	margin-left: -18em;
+	margin-top: 280px;
+	text-align: center;
+	padding-top: 5px;
+	position: absolute;
+}
+
+#larrowhead {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 25px 30px 25px;
+	border-color: transparent transparent #828282 transparent;
+	margin-left: 6px;
+	padding-top: 15px;
+}
+
+#rarrow {
+	margin-top: -33em;
+}
+
+#rarrowtail {
+	font-size: 15px;
+	background-color: #828282;
+	float: right;
+	width: 600px;
+	height: 25px;
+	color: white;
+	transform: rotate(90deg);
+	text-align: center;
+	margin-top: 2.5em;
+	position: absolute;
+	margin-left: 72.9em;
+	padding-top: 5px;
+}
+
+#rarrowhead {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 25px 30px 25px;
+	border-color: transparent transparent #828282 transparent;
+	margin-top: 21.3em;
+	margin-right: 0.3em;
+	z-index: 99999;
+	transform: rotate(180deg);
+	float: right;
+}
+
+#barrow1 {
+}
+
+#barrowtail1 {
+	font-size: 15px;
+	background-color: #828282;
+	width: 60em;
+	height: 25px;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	position: absolute;
+	margin-top: -2.6em;
+	right: 19.4%;
+}
+
+#barrowhead1 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 25px 30px 25px;
+	border-color: transparent transparent #828282 transparent;
+	padding-top: 20px;
+	transform: rotate(90deg);
+	right: 50%;
+	margin-left: 71.9em;
+}
+
+#barrow2 {
+}
+
+#barrowtail2 {
+	font-size: 15px;
+	background-color: #828282;
+	width: 60em;
+	height: 25px;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	position: absolute;
+	margin-top: -2.6em;
+	right: 17.6%;
+}
+
+#barrowhead2 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 25px 30px 25px;
+	border-color: transparent transparent #828282 transparent;
+	padding-top: 20px;
+	transform: rotate(270deg);
+	margin-left: 14.5em;
+}
+
+/* FOOTER*/
+
+#gitlink {
+	color: white;
+	font-weight: bold;
+}
+
+#gitlink:hover {
+	color: gray;
+}
+
+footer {
+	width: 100%;
+	height:100px;
+	background-color: #bccad6;
+	margin-top:30em;
+	position: absolute;
+	left: 0;
+	right: 0;
+	line-height: 40px;
+	font-size: 20px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+
+
+
