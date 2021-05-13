@@ -216,6 +216,7 @@ th {
 	padding-left: 0px;
 	padding-right: 0px;
 	background-color: #bccad6;
+	color: white;
 }
 
 td {
@@ -230,11 +231,16 @@ tr {
 
 tr:hover {
 	animation-name: fade;
-	animation-duration: 30s;
+	animation-duration: 60s;
 }
 
 @keyframes fade {
 	3% {
+		background-color: gray;
+		color: white;
+	}
+
+	100% {
 		background-color: gray;
 		color: white;
 	}
@@ -246,7 +252,8 @@ tr:hover {
 }
 
 #siunits td {
-	padding-top: 25.8px;
+	padding-top: 17.9px;
+	padding-bottom: 17.9px;
 }
 
 /* FOOTER*/
@@ -264,7 +271,7 @@ footer {
 	width: 100%;
 	height:100px;
 	background-color: #bccad6;
-	margin-top:30em;
+	margin-top:10em;
 	position: absolute;
 	left: 0;
 	right: 0;
