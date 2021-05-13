@@ -148,15 +148,15 @@ header {
 /* BACK DIVS: 0(SAND), 1(MINT), 2(WHITE) */
 
 .back {
-	background-color: #f1e3dd;
+	background-color: #F0F0F0;
 	width: 100%
 	margin-top: -15px;
-	height: 25%;
+	height: 700px;
 	padding: 20px;
 }
 
 .back1 {
-	background-color: #E6EEDF;
+	background-color: #f1e3dd;
 	width: 100%
 	margin: -15px;
 	height: 630px;
@@ -256,6 +256,66 @@ tr:hover {
 	padding-bottom: 17.9px;
 }
 
+#volumescont {
+	margin-top: 1em;
+}
+
+#volone {
+	text-align: right;
+}
+
+#volone a {
+	counter-increment: chapter;
+	color: gray;
+	font-size: 25px;
+	text-align: right;
+}
+
+#volone a:after {
+	content:" "counter(chapter);
+	font-weight: bold;
+	font-size: 25px;
+	color: #f1e3dd;
+	text-shadow:
+    -1px -1px 0 #667292,
+    1px -1px 0 #667292,
+    -1px 1px 0 #667292,
+    1px 1px 0 #667292;
+}
+
+#volone a:hover {
+	color:  #667292;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#voltwo {
+	counter-reset: chapter 20;
+}
+
+#voltwo a {
+	counter-increment: chapter;
+	color: gray;
+	font-size: 25px;
+}
+
+#voltwo a:before {
+	content: counter(chapter)" ";
+	font-weight: bold;
+	font-size: 25px;
+	color: #f1e3dd;
+	text-shadow:
+    -1px -1px 0 #667292,
+    1px -1px 0 #667292,
+    -1px 1px 0 #667292,
+    1px 1px 0 #667292;
+}
+
+#voltwo a:hover {
+	color:  #667292;
+	font-size: 25px;
+	font-weight: bold;
+}
 /* FOOTER*/
 
 #gitlink {
@@ -283,7 +343,7 @@ footer {
 	width: 100%;
 	height:170px;
 	background-color: #bccad6;
-	margin-top:10em;
+	margin-top:50em;
 	position: absolute;
 	left: 0;
 	right: 0;
