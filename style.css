@@ -105,7 +105,7 @@ header {
 }
 
 #socmed {
-	margin-top: -105px;
+	margin-top: -115px;
 	text-align: right;
 	padding-right: 20px;
 }
@@ -127,7 +127,7 @@ header {
 
 .fourcolumn {
 	float: left;
-	width: 26%;
+	width: 25%;
 	padding-left: 1.5em;
 	overflow: scroll;
 	margin: -20px;
@@ -200,14 +200,11 @@ ul {
 	font-family: times new roman;
 	font-size: 20px;
 }
-}
 
 /* TABLE ELEMENTS */
-
 main {
-	margin-top: -5em;
+	padding-top: 20px;
 }
-
 table {
 	table-layout: fixed;
 	border-radius: 10px;
@@ -218,8 +215,20 @@ th {
 	text-align: center;
 	padding-left: 0px;
 	padding-right: 0px;
+	background-color: #bccad6;
 }
-th:hover {
+
+td {
+	font-size: 20px;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+tr {
+	background-color: #F0F0F0;
+}
+
+tr:hover {
 	animation-name: fade;
 	animation-duration: 30s;
 }
@@ -231,10 +240,13 @@ th:hover {
 	}
 }
 
-td {
-	font-size: 15px;
-	padding: 20px 0px 20px 0px;
-	text-align: center;
+#sicontainer {
+	margin-top: 3em;
+	margin-left: 1em;
+}
+
+#siunits td {
+	padding-top: 25.8px;
 }
 
 /* LEFT ARROW, RIGHT ARROW, BOTTOM ARROWS */
