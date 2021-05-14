@@ -20,6 +20,11 @@ a {
 	src: url(Montserrat/Montserrat.ttf);
 }
 
+@font-face {
+	font-family: montserratSemiBold;
+	src: url(Montserrat/Montserrat-SemiBold.ttf);
+}
+
 h1 {
 	text-align: center;
 }
@@ -154,6 +159,7 @@ header {
 	padding-top: 105px;
 	color: #bccad6;
 	letter-spacing: 2px;
+	font-family: montserratSemiBold;
 }
 
 #devlink:hover {
@@ -360,6 +366,7 @@ tr:hover {
 #gitlink {
 	color: white;
 	font-weight: bold;
+	font-family: montserratSemiBold;
 }
 
 #gitlink:hover {
@@ -369,9 +376,9 @@ tr:hover {
 #chemistry {
 	letter-spacing: 10px;
 	color: white;
-	font-weight: bold;
 	font-size: 40px;
 	margin: 0px;
+	font-family: montserratBlack;
 }
 
 #chemistry:hover {
