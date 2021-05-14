@@ -145,6 +145,18 @@ header {
 	font-family: montserratBlack;
 }
 
+@media screen and (max-width: 481px) {
+	#physics {
+		letter-spacing: 10px;
+		color: #667292;
+		font-weight: bold;
+		float: left;
+		font-size: 70px;
+		padding-top: 10em;
+		font-family: montserratBlack;
+	}
+}
+
 #title {
 	letter-spacing: 2px;
 	color: #667292;
@@ -163,6 +175,13 @@ header {
 	padding-bottom: 10px;
 	padding-left: 37em;
 }
+
+@media screen and (max-width: 481px) {
+	#devname {
+		display: hidden;
+	}
+}
+
 
 #devlink {
 	padding-top: 105px;
