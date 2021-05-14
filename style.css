@@ -114,6 +114,10 @@ nav input[type=text] {
 	color: gray;
 }
 
+nav select {
+	display: none;
+}
+
 header {
 	margin-top: -1em;
 }
@@ -126,7 +130,10 @@ header {
 	padding-left: 2.5em;
 }
 
-@media screen and (max-width: 481px) {
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
 	#logo {
 		width: 95px;
 		float: left;
@@ -145,7 +152,10 @@ header {
 	font-family: montserratBlack;
 }
 
-@media screen and (max-width: 481px) {
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
 	#physics {
 		letter-spacing: 5px;
 		color: #667292;
@@ -175,7 +185,10 @@ header {
 	padding-left: 37em;
 }
 
-@media screen and (max-width: 481px) {
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
 	#devname {
 		display: none;
 	}
@@ -209,7 +222,10 @@ header {
 	width: 100px;
 }
 
-@media screen and (max-width: 481px) {
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
 	#socmed {
 		display: none;
 	}
