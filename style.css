@@ -126,6 +126,15 @@ header {
 	padding-left: 2.5em;
 }
 
+@media screen and (max-width: 481px) {
+	#logo {
+		width: 95px;
+		float: left;
+		padding-top: 4.7em;
+		padding-left: 2.5em;
+	}
+}
+
 #physics {
 	letter-spacing: 10px;
 	color: #667292;
