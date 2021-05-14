@@ -182,6 +182,12 @@ header {
 	width: 100px;
 }
 
+@media screen and (max-width: 481px) {
+	#socmed {
+		display: none;
+	}
+}
+
 #path {
 	margin-top: 4em;
 	margin-left: -2em;
