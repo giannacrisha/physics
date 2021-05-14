@@ -119,6 +119,12 @@ header {
 	width: 100px;
 }
 
+#path {
+	margin-top: 4em;
+	margin-left: -2em;
+}
+/* BACK DIVS: 0(SAND), 1(MINT), 2(WHITE) */
+
 .twocolumn {
 	float: left;
 	width: 46%;
@@ -144,8 +150,6 @@ header {
 	margin-left: -15px;
 	margin-right: -15px;
 }
-
-/* BACK DIVS: 0(SAND), 1(MINT), 2(WHITE) */
 
 .back {
 	background-color: #F0F0F0;
