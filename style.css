@@ -15,6 +15,11 @@ a {
 	src: url(Montserrat/Montserrat-Black.ttf);
 }
 
+@font-face {
+	font-family: montserrat;
+	src: url(Montserrat/Montserrat.ttf);
+}
+
 h1 {
 	text-align: center;
 }
@@ -121,8 +126,9 @@ header {
 	color: #667292;
 	font-weight: bold;
 	float: left;
-	font-size: 40px;
-	padding-top: 70px;
+	font-size: 70px;
+	padding-top: 30px;
+	font-family: montserratBlack;
 }
 
 #title {
@@ -137,24 +143,26 @@ header {
 }
 
 #devname {
-	padding-top: 120px;
+	padding-top: 8.1em;
 	color: #bccad6;
 	letter-spacing: 1px;
 	padding-bottom: 10px;
+	padding-left: 37em;
 }
 
 #devlink {
-	padding-top: 95px;
+	padding-top: 105px;
 	color: #bccad6;
 	letter-spacing: 2px;
 }
 
 #devlink:hover {
 	color: #667292;
+	font-weight: bold;
 }
 
 #socmed {
-	margin-top: -115px;
+	margin-top: -8em;
 	text-align: right;
 	padding-right: 20px;
 }
