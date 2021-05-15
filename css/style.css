@@ -12,17 +12,17 @@ a {
 
 @font-face {
 	font-family: montserratBlack;
-	src: url(Montserrat/Montserrat-Black.ttf);
+	src: url(../Montserrat/Montserrat-Black.ttf);
 }
 
 @font-face {
 	font-family: montserrat;
-	src: url(Montserrat/Montserrat.ttf);
+	src: url(../Montserrat/Montserrat.ttf);
 }
 
 @font-face {
 	font-family: montserratSemiBold;
-	src: url(Montserrat/Montserrat-SemiBold.ttf);
+	src: url(../Montserrat/Montserrat-SemiBold.ttf);
 }
 
 h1 {
@@ -461,7 +461,3 @@ footer {
 	padding-top: 10px;
 	padding-bottom: 10px; 
 }
-
-
-
-
