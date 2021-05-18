@@ -82,6 +82,7 @@ nav a {
 	line-height: 50px;
 	padding: 13px;
 	border-radius: 20px;
+	transition: 1s;
 	text-shadow:
     -1px -1px 0 #667292,
     1px -1px 0 #667292,
@@ -96,7 +97,7 @@ nav a.active {
     -1px -1px 0 #667292,
     1px -1px 0 #667292,
     -1px 1px 0 #667292,
-    1px 1px 0 #667292;  
+    1px 1px 0 #667292; 
 }
 
 nav a:hover{
@@ -327,23 +328,12 @@ td {
 
 tr {
 	background-color: #F0F0F0;
+	transition: 0.5s;
 }
 
 tr:hover {
-	animation-name: fade;
-	animation-duration: 60s;
-}
-
-@keyframes fade {
-	3% {
-		background-color: gray;
-		color: white;
-	}
-
-	100% {
-		background-color: gray;
-		color: white;
-	}
+	background-color: gray;
+	color: white;
 }
 
 #sicontainer {
@@ -397,6 +387,7 @@ tr:hover {
 	counter-increment: chapter;
 	color: gray;
 	font-size: 25px;
+	transition: 1s;
 }
 
 #voltwo a:before {
@@ -429,6 +420,7 @@ tr:hover {
 	color: white;
 	font-weight: bold;
 	font-family: montserratSemiBold;
+	transition: 1s;
 }
 
 #gitlink:hover {
@@ -441,6 +433,7 @@ tr:hover {
 	font-size: 40px;
 	margin: 0px;
 	font-family: montserratBlack;
+	transition: 1s;
 }
 
 #chemistry:hover {
@@ -451,7 +444,7 @@ footer {
 	width: 100%;
 	height:170px;
 	background-color: #bccad6;
-	margin-top:50em;
+	margin-top:10em;
 	position: absolute;
 	left: 0;
 	right: 0;
